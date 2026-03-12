@@ -1,4 +1,4 @@
-public public class GenericsTypeOld {
+public class GenericsTypeOld {
 
     private Object t;
 
@@ -15,6 +15,4 @@ public public class GenericsTypeOld {
         type.set("Java");
         String str = (String) type.get(); // type casting, error prone and can cause ClassCastException
     }
-}{
-
 }
